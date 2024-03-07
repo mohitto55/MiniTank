@@ -2,10 +2,13 @@
 .vs/
 
 # Compiled Object files
+ipch/
 *.slo
 *.lo
 *.o
 *.obj
+*.VC.db
+*.VC.opendb
 
 # Precompiled Headers
 *.gch
@@ -38,10 +41,10 @@
 *.suo
 *.opensdf
 *.sdf
-*.VC.db
-*.VC.opendb
-.vs
-.vsconfig
+*.vs/
+*.vsconfig
+*.bin/
+
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -74,4 +77,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Solution.VC.db
+Browse.VC.db
+286d28d279c27eab.ipch
+c1c28349d0a9fde6.ipch
 
